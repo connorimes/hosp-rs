@@ -6,7 +6,7 @@ description = "Interface for managing an ODROID Smart Power device over USB."
 homepage = "https://github.com/energymon/hosp-rs"
 repository = "https://github.com/energymon/hosp-rs"
 readme = "README.md"
-keywords = ["odroid", "smart", "power", "hid", "hidapi", "usb"]
+keywords = ["odroid", "smart", "power", "hid", "usb"]
 categories = ["hardware-support"]
 license = "BSD-3-Clause"
 
