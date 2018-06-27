@@ -8,9 +8,8 @@ It is roughly based on the [hosp](https://github.com/energymon/hosp) C library.
 
 You need an ODROID Smart Power device with a USB connection.
 
-You will also need the [hidapi](https://github.com/signal11/hidapi/) library.
-On Ubuntu 14.04 LTS and newer, just install `libhidapi-dev`.
-We use the [hidapi-rs](https://crates.io/crates/hidapi) crate.
+We use the [hidapi](https://crates.io/crates/hidapi) crate for managing the USB interface.
+On Linux, you will need `libusb-1.0` headers installed and discoverable by `pkg-config` so the native [hidapi](https://github.com/signal11/hidapi/) library can be compiled (On Ubuntu, install `libusb-1.0-0-dev`).
 
 
 ## Usage
